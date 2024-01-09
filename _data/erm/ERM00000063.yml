@@ -1,0 +1,14 @@
+title: "Material: ERM00000063"
+type: ChemicalSubstance
+id: ERM00000063
+tag: erm:ERM00000063
+chemicalComposition: ZnO
+tags: doi:10.3389/FTOX.2022.981701 erm:ERM00000063
+scholarlyArticleDOI: [10.3389/ftox.2022.981701]
+datasetDOI:
+a: npo:NPO_1542 # TODO It is not technically a nanoparticle but a nanoparticle 
+otherLinks: 
+  - name:
+    url: https://www.sigmaaldrich.com/NL/en/sds/aldrich/721077
+    title: SAFETY DATA SHEET - Sigma-Aldrich
+    type: pdf

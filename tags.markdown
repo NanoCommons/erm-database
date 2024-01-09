@@ -11,7 +11,7 @@ permalink: /tags/
   {% assign tag_name = tag[0] %}
   {% if tag_name contains "erm:" %}
     <span style="font-size: {{ tag | last | size | times: 500 | divided_by: site.tags.size | plus: 100  }}%">
-      <a href="{{ tag_name | slice: 4,20 | prepend: '/substance/' | relative_url }}">{{ tag | first }}</a>
+      <a href="{{ tag_name | replace: 'ERM', 'ERM/' | slice: 4,20 | prepend: '/substance/' | relative_url }}">{{ tag | first  }}</a>
     </span>
   {% endif %}
 {% endfor %}

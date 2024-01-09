@@ -1,7 +1,0 @@
----
-layout: substance
-title: "Material: ERM00000397"
-type: ChemicalSubstance
-tag: erm:ERM00000397
-chemicalComposition: CeO2/Co3O4
----

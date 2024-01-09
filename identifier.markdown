@@ -5,15 +5,14 @@ permalink: /identifiers/
 ---
 
 <div class="tag-cloud">
-{% assign sortedtags = site.tags | sort %}
-{% for tag in sortedtags %}
-  <ul class="post-list">
-  {% assign tag_name = tag[0] %}
-  {% if tag_name contains "erm:" %}
-    <li>
-      <a href="{{ tag_name | slice: 4,20 | prepend: '/substance/' | relative_url }}">{{ tag | first }}</a>
-    </li>
-  {% endif %}
-  </ul>
+<ul>
+{% for erm_hash in site.data.erm %}
+{% assign erm = erm_hash[1] %}
+  <li>
+    <a href="/erm-database/substance/{{ erm.id | replace: 'ERM', 'ERM/' }}">
+      {{ erm.id  | replace: 'ERM', 'erm:ERM' }}
+    </a>
+  </li>
 {% endfor %}
+</ul>
 </div>

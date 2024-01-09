@@ -1,7 +1,0 @@
----
-layout: substance
-title: "Material: ERM00000409"
-type: ChemicalSubstance
-tag: erm:ERM00000409
-chemicalComposition: Fe3O4
----

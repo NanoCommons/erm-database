@@ -17,6 +17,17 @@ layout: base
 
 {% if page.chemicalComposition %}<p class="post-meta">Chemical composition: {{ page.chemicalComposition }}</p>{% endif %}
 
+<!-- TODO: Compare the declared ontology class against the classes in _data/enmo and provide the link -->
+{% if page.a %}
+  {% assign type = page.a | replace: ':', '' %}
+  {% assign enmo_data = site.data.enmo[type] %}
+  {% if enmo_data %}
+    <p class="post-meta">Ontology class:  <a href="{{ site.data.enmo[type].URI }}">{{ page.a }}</p></a>
+  {% endif %}
+{% endif %}
+
+{% assign blogposts = site.tags[page.tag] %}
+{% if blogposts.size > 0 %}
 <h2 class="tag-title">Blog posts</h2>
 <ul>
 {% for post in site.tags[page.tag] %}
@@ -31,6 +42,28 @@ layout: base
   </li>
 {% endfor %}
 </ul>
+{% endif %}
+
+{% assign datasets = page.datasetDOI %}
+{% if datasets.size > 0 %}
+<h2 class="tag-title">Datasets</h2>
+<ul>
+{% for dataset in datasets %}
+<li><a href="" />{{ dataset }}</li></a>
+{% endfor %}
+</ul>
+{% endif %}
+
+{% assign journalArticles = page.journalArticleDOI | split: ' ' %}
+{% if journalArticles.size > 0 %}
+<h2 class="tag-title">Datasets</h2>
+<ul>
+{% for journalArticle in journalArticles %}
+  <li><a href="" />{{ journalArticle }}</li></a>
+{% endfor %}
+</ul>
+{% endif %}
+
 </div>
 
 <script type="application/ld+json">
@@ -50,36 +83,25 @@ layout: base
     "https://nanocommons.github.io/identifiers/registry#{{ clean_title }}", "erm:{{ clean_title }}", "{{ clean_title }}"
   ]
 }
+
 </script>
-
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-{% if page.tags.size > 0 %}
+{% assign scholarlyArticles = page.scholarlyArticleDOI | split: ' ' %}
+{% if scholarlyArticles.size > 0 %}
   <div class="post-footer" id="bibliographyDIV" style="visibility: hidden">
   <b class="post">Further reading</b>
   <p class="post-meta" id="bibliography"></p>
   </div>
   <script>
+
+var articleString = '{{ scholarlyArticles }}';
+var dois = articleString.split(',');
 const cite = new Cite()
-{% assign tags = page.tags | split:' ' %}
-dois = []
-{% for tag in tags %}
-  {% assign check = tag | split:':' %}
-  {% if check.size > 1 %}
-    {% if check[0] == "doi" %}
-      {% capture doi %}{{ check[1] }}{% endcapture %}
-dois.push("{{ doi }}")
-    {% endif %}
-  {% endif %}
-{% endfor %}
 if (dois.length > 0) {
   Cite.async(dois).then(function(cite) {
     content = cite.format('bibliography', {
       format: 'html', template : 'apa',
       prepend: function (entry) {
-        return '<i class="fa-solid fa-file fa-xs"></i><a href="../work/' + entry.DOI.toUpperCase() + '"><code class="highligher-rouge"><nobr>' + entry.DOI + '</nobr></code></a>&nbsp;'
+        return '<i class="fa-solid fa-file fa-xs"></i><a href="../../work/' + entry.DOI.toUpperCase() + '"><code class="highligher-rouge"><nobr>' + entry.DOI + '</nobr></code></a>&nbsp;'
       },
       append: function (entry) {
         return ' <a href="https://doi.org/' + entry.DOI + '">CrossRef</a> <a href="https://scholia.toolforge.org/doi/' + entry.DOI + '">Scholia</a>'

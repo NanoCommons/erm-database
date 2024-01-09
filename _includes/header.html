@@ -24,6 +24,7 @@
             {% elsif my_page.title contains "Molecule:" %}
             {% elsif my_page.title contains "Material:" %}
             {% elsif my_page.title contains "Work:" %}
+            {% elsif my_page.title contains "class" %}
             {% elsif my_page.title %}
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {% endif %}

@@ -1,0 +1,15 @@
+title: "Material: ERM00000064"
+type: ChemicalSubstance
+id: ERM00000064
+tag: erm:ERM00000064
+tags: erm:ERM00000064 10.3389/ftox.2022.981701
+chemicalComposition: TiO2
+scholarlyArticleDOI: [10.3389/ftox.2022.981701]
+datasetDOI: 
+a: npo:NPO_1486
+otherLinks: 
+ - url: https://joint-research-centre.ec.europa.eu/system/files/2016-06/JRC%2520Nanomaterials%2520Repository-List%2520of%2520Representative%2520Nanomaterials-201606.pdf
+   title: EUROPEAN COMMISSION JOINT RESEARCH CENTRE JRC NANOMATERIALS REPOSITORY - List of Representative Nanomaterials
+   type: pdf
+cas: 13463-67-7
+sameAs: [JRCNM01005a]

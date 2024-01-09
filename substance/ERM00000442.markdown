@@ -1,7 +1,0 @@
----
-layout: substance
-title: "Material: ERM00000442"
-type: ChemicalSubstance
-tag: erm:ERM00000442
-chemicalComposition: Ce0.75Zr0.25O2
----

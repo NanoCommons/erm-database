@@ -13,8 +13,18 @@ plugins:
   - jekyll-seo-tag
   - jekyll/mastodon_webfinger
   - jekyll-paginate
+  - jekyll-datapage-generator
 
 feed:
   tags: true
 
 tags:
+
+### Page generator from _data files
+
+page_gen:
+- data: "erm"
+  template: "substance"
+  dir: "substance/ERM/"
+  name_expr: "record['id'].sub('ERM', '')"
+  title_expr: "record['title']"
