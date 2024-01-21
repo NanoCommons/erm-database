@@ -12,7 +12,7 @@ layout: base
 
 <div class="post">
 {% if page.nanoviz %}
-<div id="nanoviz-container" style="float: right; width: 200px"></div>
+<div id="nanoviz-container" style="float: right"></div>
 <script>
   window.onload = function () {
     const element = document.getElementById('nanoviz-container')
@@ -21,7 +21,9 @@ layout: base
       {% for link in page.nanoviz %}
         {label: '{{ link.label }}'},
       {% endfor %}
-      ]
+      ],
+      undefined,
+      200
     )
   }
 </script>

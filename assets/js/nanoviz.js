@@ -81,11 +81,11 @@ function makePart (part, style, defs) {
 </text>`
 }
 
-module.exports.nanoMaterial = function nanoMaterial (parts, style) {
+module.exports.nanoMaterial = function nanoMaterial (parts, style, width = 300) {
   style = makeStyle(style)
 
   const svg = [
-    '<svg width="300" height="200" viewBox="-100 -100 300 200" font-weight="bold" xmlns="http://www.w3.org/2000/svg">'
+    `<svg width="${width}" height="${width * 2 / 3}" viewBox="-100 -100 300 200" font-weight="bold" xmlns="http://www.w3.org/2000/svg">`
   ]
 
   const defs = []
