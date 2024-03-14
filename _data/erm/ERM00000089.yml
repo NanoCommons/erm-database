@@ -6,17 +6,20 @@ chemicalComposition: WCCo
 tags: erm:ERM00000089
 cas: 12718-69-3
 supplier:
- - name: NanoAmor
-   code: 5561HW
+  - name: NanoAmor
+    code: 5561HW
 a: npo:ENM_9000257
 otherLinks:
- - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf
-   title: Report on the final harmonised SOPs used to propose amendments to the existing OECD TGs
-   date: 2021-12-29
-   type: deliverable
-   format: pdf
- - url: https://riskgone.eu/wp-content/uploads/sites/11/2023/08/POSTER_RiskGONE_WP4_finalCM_POSTER1.pdf
-   title: WP4 - ENMs Characterisation, in vitro dosimetry and environmental fate
-   date: 2023-08-01
-   type: poster
-   format: pdf
+  - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf
+    title: Report on the final harmonised SOPs used to propose amendments to the
+      existing OECD TGs
+    date: 2021-12-29
+    type: deliverable
+    format: pdf
+  - url: https://riskgone.eu/wp-content/uploads/sites/11/2023/08/POSTER_RiskGONE_WP4_finalCM_POSTER1.pdf
+    title: WP4 - ENMs Characterisation, in vitro dosimetry and environmental fate
+    date: 2023-08-01
+    type: poster
+    format: pdf
+  - databases:
+      - RISKGONE

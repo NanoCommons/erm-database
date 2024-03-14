@@ -1,4 +1,3 @@
----
 title: "Material: ERM00000084"
 type: ChemicalSubstance
 id: ERM00000084
@@ -6,12 +5,13 @@ tag: erm:ERM00000084
 tags: erm:ERM00000084
 chemicalComposition: PLGA-AuNPs-NP
 supplier:
- - name: MyBioTech
+  - name: MyBioTech
 a: npo:NPO_707
 otherLinks:
- - url: https://riskgone.eu/wp-content/uploads/sites/11/2023/08/POSTER_RiskGONE_WP4_finalCM_POSTER1.pdf
-   title: WP4 - ENMs Characterisation, in vitro dosimetry and environmental fate
-   date: 2023-08-01
-   type: poster
-   format: pdf
----
+  - url: https://riskgone.eu/wp-content/uploads/sites/11/2023/08/POSTER_RiskGONE_WP4_finalCM_POSTER1.pdf
+    title: WP4 - ENMs Characterisation, in vitro dosimetry and environmental fate
+    date: 2023-08-01
+    type: poster
+    format: pdf
+  - databases:
+      - RISKGONE

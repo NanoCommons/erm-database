@@ -4,26 +4,31 @@ id: ERM00000064
 tag: erm:ERM00000064
 tags: erm:ERM00000064 10.3389/FTOX.2022.981701
 supplier:
- - name: JRC
-   code: 721077
-   batch: JRCNM01005a
+  - name: JRC
+    code: 721077
+    batch: JRCNM01005a
 chemicalComposition: TiO2
 scholarlyArticleDOI: 10.3389/FTOX.2022.981701 10.1016/J.CHEMOSPHERE.2023.140975
 a: npo:NPO_1486
 otherLinks:
- - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf
-   title: Report on the final harmonised SOPs used to propose amendments to the existing OECD TGs
-   date: 2021-12-29
-   type: deliverable
-   format: pdf
- - url: https://joint-research-centre.ec.europa.eu/system/files/2016-06/JRC%2520Nanomaterials%2520Repository-List%2520of%2520Representative%2520Nanomaterials-201606.pdf
-   title: EUROPEAN COMMISSION JOINT RESEARCH CENTRE JRC NANOMATERIALS REPOSITORY - List of Representative Nanomaterials
-   type: report
-   format: pdf
- - url: https://riskgone.eu/wp-content/uploads/sites/11/2023/08/POSTER_RiskGONE_WP4_finalCM_POSTER1.pdf
-   title: WP4 - ENMs Characterisation, in vitro dosimetry and environmental fate
-   date: 2023-08-01
-   type: poster
-   format: pdf
+  - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf
+    title: Report on the final harmonised SOPs used to propose amendments to the
+      existing OECD TGs
+    date: 2021-12-29
+    type: deliverable
+    format: pdf
+  - url: https://joint-research-centre.ec.europa.eu/system/files/2016-06/JRC%2520Nanomaterials%2520Repository-List%2520of%2520Representative%2520Nanomaterials-201606.pdf
+    title: EUROPEAN COMMISSION JOINT RESEARCH CENTRE JRC NANOMATERIALS REPOSITORY -
+      List of Representative Nanomaterials
+    type: report
+    format: pdf
+  - url: https://riskgone.eu/wp-content/uploads/sites/11/2023/08/POSTER_RiskGONE_WP4_finalCM_POSTER1.pdf
+    title: WP4 - ENMs Characterisation, in vitro dosimetry and environmental fate
+    date: 2023-08-01
+    type: poster
+    format: pdf
+  - databases:
+      - RISKGONE
 cas: 13463-67-7
-sameAs: [JRCNM01005a]
+sameAs:
+  - JRCNM01005a

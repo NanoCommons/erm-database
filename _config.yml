@@ -28,3 +28,4 @@ page_gen:
   dir: "substance/erm/"
   name_expr: "record['id']"
   title_expr: "record['title']"
+- data: "databases"

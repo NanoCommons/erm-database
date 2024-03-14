@@ -6,23 +6,26 @@ chemicalComposition: ZnO
 tags: doi:10.3389/FTOX.2022.981701 erm:ERM00000063
 cas: 1314-13-2
 supplier:
- - name: Sigma Aldrich
-   code: 721077
-   batch: MKCK-4155
+  - name: Sigma Aldrich
+    code: 721077
+    batch: MKCK-4155
 scholarlyArticleDOI: 10.3389/FTOX.2022.981701 10.1016/J.CHEMOSPHERE.2023.140975
-a: npo:NPO_1542 # TODO It is not technically a nanoparticle but a nanoparticle 
+a: npo:NPO_1542
 otherLinks:
- - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf
-   title: Report on the final harmonised SOPs used to propose amendments to the existing OECD TGs
-   date: 2021-12-29
-   type: deliverable
-   format: pdf
- - url: https://www.sigmaaldrich.com/NL/en/sds/aldrich/721077
-   title: SAFETY DATA SHEET - Sigma-Aldrich
-   type: other
-   format: pdf
- - url: https://riskgone.eu/wp-content/uploads/sites/11/2023/08/POSTER_RiskGONE_WP4_finalCM_POSTER1.pdf
-   title: WP4 - ENMs Characterisation, in vitro dosimetry and environmental fate
-   date: 2023-08-01
-   type: poster
-   format: pdf
+  - url: https://riskgone.eu/wp-content/uploads/sites/11/2022/02/RiskGONE-D5.1.pdf
+    title: Report on the final harmonised SOPs used to propose amendments to the
+      existing OECD TGs
+    date: 2021-12-29
+    type: deliverable
+    format: pdf
+  - url: https://www.sigmaaldrich.com/NL/en/sds/aldrich/721077
+    title: SAFETY DATA SHEET - Sigma-Aldrich
+    type: other
+    format: pdf
+  - url: https://riskgone.eu/wp-content/uploads/sites/11/2023/08/POSTER_RiskGONE_WP4_finalCM_POSTER1.pdf
+    title: WP4 - ENMs Characterisation, in vitro dosimetry and environmental fate
+    date: 2023-08-01
+    type: poster
+    format: pdf
+  - databases:
+      - RISKGONE

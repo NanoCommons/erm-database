@@ -89,15 +89,32 @@ layout: base
 </ul>
 {% endif %}
 
-{% assign datasets = page.datasetDOI %}
-{% if datasets.size > 0 %}
-<h2 class="tag-title">Datasets</h2>
-<ul>
-{% for dataset in datasets %}
-<li><a href="../../work/{{ dataset }}" />{{ dataset }}</li></a>
+
+
+User
+{% assign databases = "" %}
+{% for link in page.otherLinks %}
+  {% if link.databases %}
+    {% assign databases = link.databases %}
+    {% break %}
+  {% endif %}
 {% endfor %}
-</ul>
+
+{% if databases.size > 0 %}
+  <h2 class="tag-title">Databases</h2>
+  <ul>
+    {% for database in databases %}
+      {% for site_database_hash in site.data.databases %}
+        {% assign site_database = site_database_hash[1] %}
+        {% if database == site_database.title %}
+          <li>{{ database }}</li>
+        {% endif %}
+      {% endfor %}      
+    {% endfor %}
+  </ul>
 {% endif %}
+
+
 
 {% assign journalArticles = page.scholarlyArticleDOI | split: ' ' %}
 {% if journalArticles.size > 0 %}
@@ -113,9 +130,11 @@ layout: base
 
 
 {% if page.otherLinks.size > 0 %}
+
 <h2 class="tag-title">Other</h2>
 <ul>
 {% for link in page.otherLinks %}
+  {% if link.title %}
   {% if link.lang %}
   <li lang="{{post.lang}}">
   {% else %}
@@ -130,6 +149,7 @@ layout: base
         <i class="fa-solid fa-file-pdf"></i>
       {% endif %}
     {% endif %}
+    {% endif %}
   </li>
 {% endfor %}
 </ul>
@@ -139,6 +159,7 @@ layout: base
 {% assign scholarlyArticles = page.scholarlyArticleDOI | split: ' ' %}
 {% assign datasetArticles = page.datasetDOI | split: ' ' %}
 {% assign doiCounts = scholarlyArticles.size | plus: datasetArticles.size %}
+
 {% if doiCounts > 0 %}
   <div class="post-footer" id="bibliographyDIV" style="visibility: hidden">
   <b class="post">Further reading</b>
