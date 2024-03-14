@@ -10,6 +10,8 @@
 name: Custom Deploy Jekyll site to Pages
 
 on:
+  pull_request:
+    branches: ['ingest-erms-ambit']
   push:
     branches: ["main"]
 
@@ -81,6 +83,13 @@ jobs:
             cd _site
             cat sitemap.xml | sed -e 's/\/substance\/erm\/erm0/\/substance\/erm\/ERM0/' > sitemap2.xml
             mv sitemap2.xml sitemap.xml
+
+      - name: Fetch AMBIT database data
+        uses: actions/setup-node@v4
+        with:
+          node-version: '16.x'
+      - run: node ambit_databases.js
+
       - name: Upload artifact
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-pages-artifact@v3
