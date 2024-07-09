@@ -1,4 +1,6 @@
-label: zirconium dioxide nanoparticle
-URI: http://purl.enanomapper.org/onto/ENM_9000241
-curie: enm:ENM_9000241
-a: npo:NPO_1541
+label: "zirconium (IV) dioxide nanoparticle"
+URI: "http://purl.enanomapper.org/onto/ENM_9000241"
+curie: "enm:ENM_9000241"
+a:
+  - npo:NPO_1541
+

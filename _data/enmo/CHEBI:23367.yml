@@ -1,4 +1,6 @@
-label: molecular entity
-URI: http://purl.obolibrary.org/obo/CHEBI_23367
-curie: CHEBI:23367
-a: obo:BFO_0000040
+label: "molecular entity"
+URI: "http://purl.obolibrary.org/obo/CHEBI_23367"
+curie: "CHEBI:23367"
+a:
+  - BFO:0000040
+

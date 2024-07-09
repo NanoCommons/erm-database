@@ -1,4 +1,6 @@
-label: copper oxide nanoparticle
-URI: http://purl.bioontology.org/ontology/npo#NPO_1544
-curie: npo:NPO_1544
-a: npo:NPO_1541
+label: "copper oxide nanoparticle"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_1544"
+curie: "npo:NPO_1544"
+a:
+  - npo:NPO_1541
+

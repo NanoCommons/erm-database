@@ -1,0 +1,6 @@
+label: "cobalt oxide nanoparticle"
+URI: "http://purl.enanomapper.org/onto/ENM_9000254"
+curie: "enm:ENM_9000254"
+a:
+  - enm:ENM_0000119
+

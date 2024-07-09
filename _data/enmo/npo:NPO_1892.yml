@@ -1,4 +1,6 @@
-label: silver nanoparticle
-URI: http://purl.bioontology.org/ontology/npo#NPO_1892
-curie: npo:NPO_1892
-a: npo:NPO_707
+label: "silver nanoparticle"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_1892"
+curie: "npo:NPO_1892"
+a:
+  - npo:NPO_1384
+

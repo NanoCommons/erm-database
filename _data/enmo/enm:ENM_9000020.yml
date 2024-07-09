@@ -1,4 +1,6 @@
-label: aluminum nanoparticle
-URI: http://purl.enanomapper.org/onto/ENM_9000020
-curie: enm:ENM_9000020
-a: npo:NPO_1384
+label: "aluminum nanoparticle"
+URI: "http://purl.enanomapper.org/onto/ENM_9000020"
+curie: "enm:ENM_9000020"
+a:
+  - npo:NPO_1384
+

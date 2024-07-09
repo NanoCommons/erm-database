@@ -1,0 +1,6 @@
+label: "primary particle"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_1896"
+curie: "npo:NPO_1896"
+a:
+  - npo:NPO_1895
+

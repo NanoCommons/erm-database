@@ -1,0 +1,6 @@
+label: "nanotube"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_126"
+curie: "npo:NPO_126"
+a:
+  - npo:NPO_284
+

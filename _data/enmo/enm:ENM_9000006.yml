@@ -1,0 +1,6 @@
+label: "cerium oxide nanoparticle"
+URI: "http://purl.enanomapper.org/onto/ENM_9000006"
+curie: "enm:ENM_9000006"
+a:
+  - npo:NPO_1541
+

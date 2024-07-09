@@ -1,4 +1,6 @@
-label: nanoparticle
-URI: http://purl.bioontology.org/ontology/npo#NPO_707
-curie: npo:NPO_707
-a: CHEBI_23367
+label: "nanoparticle"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_707"
+curie: "npo:NPO_707"
+a:
+  - npo:NPO_1896
+

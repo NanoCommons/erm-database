@@ -1,4 +1,7 @@
-label: metal oxide nanoparticle
-URI: http://purl.bioontology.org/ontology/npo#NPO_1542
-curie: npo:NPO_1541
-a: npo:NPO_707
+label: "metal oxide nanoparticle"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_1541"
+curie: "npo:NPO_1541"
+a:
+  - CHEBI:52855
+  - npo:NPO_707
+

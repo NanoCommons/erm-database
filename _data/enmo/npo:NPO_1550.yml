@@ -1,0 +1,6 @@
+label: "iron (III) oxide nanoparticle"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_1550"
+curie: "npo:NPO_1550"
+a:
+  - npo:NPO_729
+

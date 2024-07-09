@@ -1,4 +1,7 @@
-label: multi-walled carbon nanotube
-URI: http://purl.bioontology.org/ontology/npo#NPO_354
-curie: npo:NPO_354
-a: NPO_126
+label: "multi-walled carbon nanotube"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_354"
+curie: "npo:NPO_354"
+a:
+  - npo:NPO_112
+  - npo:NPO_606
+

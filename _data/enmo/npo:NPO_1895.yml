@@ -1,0 +1,6 @@
+label: "particle"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_1895"
+curie: "npo:NPO_1895"
+a:
+  - CHEBI:23367
+

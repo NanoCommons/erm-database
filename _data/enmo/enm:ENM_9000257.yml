@@ -1,4 +1,6 @@
-label: tungsten carbide nanoparticle
-URI: http://purl.enanomapper.org/onto/ENM_9000257
-curie: enm:ENM_9000257
-a: npo:NPO_707
+label: "tungsten carbide nanoparticle"
+URI: "http://purl.enanomapper.org/onto/ENM_9000257"
+curie: "enm:ENM_9000257"
+a:
+  - npo:NPO_707
+

@@ -1,0 +1,6 @@
+label: "Tungsten carbide"
+URI: "http://purl.obolibrary.org/obo/CHEBI_82283"
+curie: "CHEBI:82283"
+a:
+  - CHEBI:23367
+

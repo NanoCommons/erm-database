@@ -1,4 +1,6 @@
-label: gold nanoparticle
-URI: http://purl.bioontology.org/ontology/npo#NPO_401
-curie: npo:NPO_401
-a: npo:NPO_707
+label: "gold nanoparticle"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_401"
+curie: "npo:NPO_401"
+a:
+  - npo:NPO_1384
+

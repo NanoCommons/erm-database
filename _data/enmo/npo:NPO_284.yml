@@ -1,0 +1,6 @@
+label: "two-dimensional nanoparticle"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_284"
+curie: "npo:NPO_284"
+a:
+  - npo:NPO_707
+

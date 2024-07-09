@@ -1,0 +1,7 @@
+label: "material entity"
+URI: "http://purl.obolibrary.org/obo/BFO_0000040"
+curie: "BFO:0000040"
+a:
+  - BFO:0000001
+  - BFO:0000004
+

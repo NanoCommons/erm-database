@@ -1,0 +1,6 @@
+label: "multi-walled nanotube"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_112"
+curie: "npo:NPO_112"
+a:
+  - npo:NPO_126
+

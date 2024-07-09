@@ -1,4 +1,6 @@
-label: metal nanoparticle
-URI: http://purl.bioontology.org/ontology/npo#NPO_1384
-curie: npo:NPO_1384
-a: npo:NPO_707
+label: "metal nanoparticle"
+URI: "http://purl.bioontology.org/ontology/npo#NPO_1384"
+curie: "npo:NPO_1384"
+a:
+  - npo:NPO_707
+

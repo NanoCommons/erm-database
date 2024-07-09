@@ -1,0 +1,6 @@
+label: "inorganic nanoparticle"
+URI: "http://purl.obolibrary.org/obo/CHEBI_52855"
+curie: "CHEBI:52855"
+a:
+  - npo:NPO_707
+
