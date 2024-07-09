@@ -7,3 +7,10 @@ _site/
 vendor/
 _data/nanomiles/data.tsv
 ambit.json
+node_modules/*
+package-lock.json
+package.json
+*owl
+robot*
+*tsv
+prefixes.tmp
