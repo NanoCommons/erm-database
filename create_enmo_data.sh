@@ -50,7 +50,7 @@ java -jar $ROBOT_JAR \
         --add-prefix "enm: $enm" \
     export \
         --input enmo_subset.owl \
-        --header "ID|IRI|LABEL|SubClass Of" \
+        --header "ID|IRI|LABEL" \
         --entity-format ID \
         --export results.tsv
 
@@ -81,9 +81,12 @@ EOF
 
   # Determine the output YAML file path
   yaml_file="_data/enmo/${ID}.yml"
-
+  
   # Write YAML content to file only if there is valid data
   if [[ ! -z "${ID}" && ! -z "${IRI}" && ! -z "${LABEL}" && ! -z "${SubClass_Of}" ]]; then
     echo "${yaml_content}" > "${yaml_file}"
   fi
+  
 done
+rm -fr _data/enmo/UO* # Fix needed to remove unimportant classes added by ROBOT
+rm enanomapper-dev.owl

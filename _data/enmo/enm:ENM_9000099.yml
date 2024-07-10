@@ -1,4 +1,6 @@
-label: coated titanium dioxide nanoparticle
-URI: http://purl.enanomapper.org/onto/ENM_9000099
-curie: enm:ENM_9000099
-a: npo:NPO_1486
+label: "coated titanium dioxide nanoparticle"
+URI: "http://purl.enanomapper.org/onto/ENM_9000099"
+curie: "enm:ENM_9000099"
+a:
+  - npo:NPO_1486
+
