@@ -2,5 +2,5 @@ title: "Material: ERM00000403"
 type: ChemicalSubstance
 id: ERM00000403
 chemicalComposition: Ce0.1Zr0.9O2
-a: owl:Thing
+a: BFO:0000040
 tag: erm:ERM00000403
