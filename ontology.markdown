@@ -34,7 +34,7 @@ permalink: /enmo/
       color: #1f77b4;
       text-decoration: underline;
       cursor: pointer;
-      display: none; /* Hide ERMs by default */
+      /*display: none; /* Hide ERMs by default */
     }
   </style>
 </head>
@@ -147,7 +147,7 @@ permalink: /enmo/
               ermLink.href = `../substance/${ermName}`;
               ermLink.target = '_blank';
               ermLink.classList.add('erm-name');
-              ermLink.textContent = item.name; // Display the ERM name as the link text
+              ermLink.textContent = ' (open)';
               li.appendChild(ermLink);
               li.style.display = 'none'; // Hide ERMs by default
             }
