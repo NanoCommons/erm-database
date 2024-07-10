@@ -149,7 +149,7 @@ permalink: /enmo/
               ermLink.classList.add('erm-name');
               ermLink.textContent = ' (open)';
               li.appendChild(ermLink);
-              li.style.display = 'none'; // Hide ERMs by default
+              //li.style.display = 'block'; // Hide ERMs by default
             }
 
             parentElement.appendChild(li);
