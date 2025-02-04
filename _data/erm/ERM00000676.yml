@@ -1,5 +1,16 @@
 title: "Material: ERM00000676"
 type: ChemicalSubstance
 id: ERM00000676
-chemicalComposition:
+chemicalComposition: CCCCCCCCC1C(O1)CCCCCCCCCCCC(=O)O
 tag: erm:ERM00000676
+cas: 26063-22-9
+supplier:
+  - name: TNO
+    code: MOM2_PP_Vir_5-10
+    batch: MOMENTUM 2.0
+otherLinks:
+  - databases:
+      - MOMENTUM
+---
+
+Label: PP Vir 5-10
