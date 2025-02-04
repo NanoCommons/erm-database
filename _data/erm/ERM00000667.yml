@@ -1,5 +1,16 @@
 title: "Material: ERM00000667"
 type: ChemicalSubstance
 id: ERM00000667
-chemicalComposition:
+chemicalComposition: C1=CC(=CC=C1C(=O)C2=CC=C(C=C2)F)F.C1=CC(=CC=C1O)O
 tag: erm:ERM00000667
+cas: 29658-26-2
+supplier:
+  - name: TNO
+    code: MOM2_PET_Vir_5-10
+    batch: MOMENTUM 2.0
+otherLinks:
+  - databases:
+      - MOMENTUM
+---
+
+Label: PET Vir 5-10
