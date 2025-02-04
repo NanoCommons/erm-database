@@ -1,5 +1,16 @@
 title: "Material: ERM00000692"
 type: ChemicalSubstance
 id: ERM00000692
-chemicalComposition:
+chemicalComposition: ClC=C
 tag: erm:ERM00000692
+cas: 9002-86-2
+supplier:
+  - name: TNO
+    code: MOM2_PVC_UV_180-300
+    batch: MOMENTUM 2.0
+otherLinks:
+  - databases:
+      - MOMENTUM
+---
+
+Label: PVC UV 180-300
