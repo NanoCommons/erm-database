@@ -90,7 +90,7 @@ layout: base
 {% endif %}
 
 
-{% assign datasets = page.datasetDOI %}
+{% assign datasets = page.datasetDOI | split:' ' %}
 {% if datasets.size > 0 %}
 <h2 class="tag-title">Datasets</h2>
 <ul>
