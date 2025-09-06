@@ -2,7 +2,7 @@
 layout: post
 title:  "FAIR datasets by ASINA with ERM identifiers"
 date:   2025-09-06
-tags: doi:10.1016/J.IMPACT.2025.100583 erm:ERM00000550 erm:ERM00000560 erm:ERM00000561 erm:ERM00000553
+tags: asina doi:10.1016/J.IMPACT.2025.100583 erm:ERM00000550 erm:ERM00000560 erm:ERM00000561 erm:ERM00000553
   erm:ERM00000554 erm:ERM00000695
 image: https://www.asina-project.eu/wp-content/uploads/2020/04/Logo-ASINA_RGB_72dpi.jpg
 ---
