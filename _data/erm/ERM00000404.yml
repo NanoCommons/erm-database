@@ -3,7 +3,7 @@ title: "Material: ERM00000404"
 type: ChemicalSubstance
 id: ERM00000404
 chemicalComposition: ZrO2
-datasetDOI: [10.5281/ZENODO.7965537]
+datasetDOI: 10.5281/ZENODO.7965537
 a: enm:ENM_9000241
 tag: erm:ERM00000404
 otherLinks:

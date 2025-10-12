@@ -5,7 +5,7 @@ id: ERM00000396
 chemicalComposition: AlOOH
 nanoviz:
   - label: AlOOH
-datasetDOI: [10.5281/ZENODO.7966245]
+datasetDOI: 10.5281/ZENODO.7966245
 a: enm:ENM_9000020
 tag: erm:ERM00000396
 otherLinks:

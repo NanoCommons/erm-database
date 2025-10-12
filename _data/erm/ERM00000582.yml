@@ -2,7 +2,7 @@ title: "Material: ERM00000582"
 type: ChemicalSubstance
 id: ERM00000582
 chemicalComposition: Au
-datasetDOI: [10.5281/ZENODO.7990251]
+datasetDOI: 10.5281/ZENODO.7990251
 a: npo:NPO_401
 tag: erm:ERM00000582
 sameAs: [RiskGONE NM 18]

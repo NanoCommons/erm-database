@@ -3,7 +3,7 @@ title: "Material: ERM00000399"
 type: ChemicalSubstance
 id: ERM00000399
 chemicalComposition: Ce0.9Zr0.1O2
-datasetDOI: [10.5281/ZENODO.7986673]
+datasetDOI: 10.5281/ZENODO.7986673
 a: npo:NPO_707
 tag: erm:ERM00000399
 otherLinks:
