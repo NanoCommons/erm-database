@@ -4,7 +4,7 @@ title:  "RiskGONE Deliverable D1.5"
 date:   2024-01-14
 tags: riskgone erm:ERM00000062 erm:ERM00000063 erm:ERM00000064 erm:ERM00000065
       erm:ERM00000088 erm:ERM00000089 erm:ERM00000325
-image: https://riskgone.wp.nilu.no/wp-content/uploads/sites/11/2019/03/cropped-RISKGONE_Logo_96.png
+image: https://riskgone.wp5.nilu.no/wp-content/uploads/sites/11/2019/03/cropped-RISKGONE_Logo_96.png
 author: Egon Willighagen
 ---
 
