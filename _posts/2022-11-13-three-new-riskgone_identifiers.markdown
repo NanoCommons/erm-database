@@ -3,7 +3,7 @@ layout: post
 title:  "Three new RiskGONE identifiers"
 date:   2022-11-14
 tags: riskgone erm:ERM00000582 erm:ERM00000583 erm:ERM00000584
-image: https://riskgone.wp5.nilu.no/wp-content/uploads/sites/11/2019/03/cropped-RISKGONE_Logo_96.png
+image: https://riskgone.wp5.nilu.no/wp-content/uploads/sites/7/2024/11/cropped-cropped-RISKGONE_Logo_96-1-300x120.png
 author: Egon Willighagen
 ---
 

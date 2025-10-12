@@ -4,7 +4,7 @@ title:  "RiskGONE WP4 poster"
 date:   2024-01-20
 tags: riskgone erm:ERM00000062 erm:ERM00000063 erm:ERM00000064 erm:ERM00000065 erm:ERM00000083 erm:ERM00000084
   erm:ERM00000085 erm:ERM00000086 erm:ERM00000088 erm:ERM00000089 erm:ERM00000325
-image: https://riskgone.wp5.nilu.no/wp-content/uploads/sites/11/2019/03/cropped-RISKGONE_Logo_96.png
+image: https://riskgone.wp5.nilu.no/wp-content/uploads/sites/7/2024/11/cropped-cropped-RISKGONE_Logo_96-1-300x120.png
 author: Egon Willighagen
 ---
 
