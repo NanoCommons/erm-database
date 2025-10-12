@@ -5,6 +5,7 @@ tag: erm:ERM00000081
 tags: erm:ERM00000081
 sameAs:
   - NRCWE-071
+datasetDOI: 10.5281/zenodo.7193516
 otherLinks:
   - url: https://nanocommons.github.io/specifications/2024/WD-nrcwe-20240317/
     title: NRCWE nanomaterial identifiers
