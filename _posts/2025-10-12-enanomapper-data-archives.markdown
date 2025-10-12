@@ -4,7 +4,7 @@ title:  "Nanosafety Data Interface data archives: caLIBRAte, NanoReg II, and GRA
 date:   2025-09-06
 tags: gracious calibrate nanoreg erm:ERM00000074 erm:ERM00000075 erm:ERM00000076 erm:ERM00000077
   erm:ERM00000078 erm:ERM00000079 erm:ERM00000080 erm:ERM00000081 erm:ERM00000082
-image: /assets/enanomapper_embargoed.png
+image: /erm-database/assets/enanomapper_embargoed.png
 ---
 
 The [Nanosafety Data Interface](https://enanomapper.adma.ai/) (screenshot below) has hosted for many years research output for nanosafety research
@@ -14,7 +14,7 @@ done for [caLIBRAte](), [NanoReg II](), and [GRACIOUS](). The first uses ERM ide
 been linked to those nine identifiers: ERM00000074, ERM00000075, ERM00000076, ERM00000077, ERM00000078, ERM00000079,
 ERM00000080, ERM00000081, and ERM00000082.
 
-![](/assets/enanomapper_embargoed.png)
+![](/erm-database/assets/enanomapper_embargoed.png)
 
 
 
